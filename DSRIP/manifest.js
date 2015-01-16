@@ -36,12 +36,12 @@ wApps.manifest.apps.push(
     {
     "name" : 'SPARCS plot PQI',
     "description" : 'Hospital Inpatient Prevention Quality Indicators (PQI) for Adult Discharges by Zip Code (SPARCS): Beggining 2009',
-    "url" : 'http://mathbiol.github.io/openHealth/?jobs/pqiSuffolk.js',
+    "url" : 'https://mathbiol.github.io/openHealth/?jobs/pqiSuffolk.js',
     "author" : 'Jonas Almeida',
     buildUI:function(id){
         this.require('', // script needed to volunteer compute cycles to QM
             function(){
-                $('#'+id).html("<iframe width=100% height=1700 src='http://mathbiol.github.io/openHealth/?jobs/pqiSuffolk.js'/>");
+                $('#'+id).html("<iframe width=100% height=1700 src='https://mathbiol.github.io/openHealth/?jobs/pqiSuffolk.js'/>");
             });
         }
     },
@@ -49,12 +49,12 @@ wApps.manifest.apps.push(
     {
     "name" : 'SPARCS tabulate Diabetes',
     "description" : 'Hospital Inpatient Discharges (SPARCS De-Identified): 2012',
-    "url" : 'http://mathbiol.github.io/openHealth/?jobs/sparcsSuffolk2012tabulateDiabetes.js',
+    "url" : 'https://mathbiol.github.io/openHealth/?jobs/sparcsSuffolk2012tabulateDiabetes.js',
     "author" : 'Jonas Almeida',
     buildUI:function(id){
         this.require('', // script needed to volunteer compute cycles to QM
             function(){
-                $('#'+id).html("<iframe width=100% height=1700 src='http://mathbiol.github.io/openHealth/?jobs/pqiSuffolk.js'/>");
+                $('#'+id).html("<iframe width=100% height=1700 src='https://mathbiol.github.io/openHealth/?jobs/pqiSuffolk.js'/>");
             });
         }
     },
@@ -62,12 +62,12 @@ wApps.manifest.apps.push(
     {
     "name" : 'SPARCS tabulate Asthma',
     "description" : 'Hospital Inpatient Discharges (SPARCS De-Identified): 2012',
-    "url" : 'http://mathbiol.github.io/openHealth/?jobs/sparcsSuffolk2012tabulateAsthma.js',
+    "url" : 'https://mathbiol.github.io/openHealth/?jobs/sparcsSuffolk2012tabulateAsthma.js',
     "author" : 'Jonas Almeida',
     buildUI:function(id){
         this.require('', // script needed to volunteer compute cycles to QM
             function(){
-                $('#'+id).html("<iframe width=100% height=1700 src='http://mathbiol.github.io/openHealth/?jobs/sparcsSuffolk2012tabulateAsthma.js'/>");
+                $('#'+id).html("<iframe width=100% height=1700 src='https://mathbiol.github.io/openHealth/?jobs/sparcsSuffolk2012tabulateAsthma.js'/>");
             });
         }
     },
@@ -75,12 +75,12 @@ wApps.manifest.apps.push(
     {
     "name" : 'SPARCS tabulate all',
     "description" : 'Hospital Inpatient Discharges (SPARCS De-Identified): 2012',
-    "url" : 'http://mathbiol.github.io/openHealth/?jobs/sparcsSuffolk2012tabulate.js',
+    "url" : 'https://mathbiol.github.io/openHealth/?jobs/sparcsSuffolk2012tabulate.js',
     "author" : 'Jonas Almeida',
     buildUI:function(id){
         this.require('', // script needed to volunteer compute cycles to QM
             function(){
-                $('#'+id).html("<iframe width=100% height=1700 src='http://mathbiol.github.io/openHealth/?jobs/sparcsSuffolk2012tabulate.js'/>");
+                $('#'+id).html("<iframe width=100% height=1700 src='https://mathbiol.github.io/openHealth/?jobs/sparcsSuffolk2012tabulate.js'/>");
             });
         }
     },
@@ -92,7 +92,7 @@ wApps.manifest.apps.push(
     "author":"Jonas Almeida",
     "namespace":'jmat',
     buildUI:function(id){
-        this.require('https://jmat.googlecode.com/git/jmat.js', //'http://localhost:8888/jmat/jmat.js',
+        this.require('https://jmat.googlecode.com/git/jmat.js', //'https://localhost:8888/jmat/jmat.js',
             function(){
                 $('<div id="plotHere">').appendTo($('#'+id).html(''));
                 jmat.plot("plotHere",jmat.rand(100),jmat.rand(100));
@@ -105,7 +105,7 @@ wApps.manifest.apps.push(
     {
     "name": "someWApp",
     "description": "Some wApp one of you links here",
-    "url": "http://uab.mathbiol.org/workshop",
+    "url": "https://uab.mathbiol.org/workshop",
     "author":"Some Author",
     "namespace":'Some_wApp',
     buildUI:function(id){
@@ -123,10 +123,10 @@ wApps.manifest.apps.push(
 wApps.manifest.authors.push(
     {
     "name":"Jonas Almeida",
-    "url":"http://jonasalmeida.info"
+    "url":"https://jonasalmeida.info"
     },
     {
     "name":"Some Author",
-    "url":"http://someURL"
+    "url":"https://someURL"
     }
 );

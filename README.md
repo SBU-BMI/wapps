@@ -6,10 +6,7 @@ More below about [what a wApp is](#wapps-all-you-need-is-a-manifest). For those 
 This is an attempt to aggregate DSRIP analytical products for NY Open Data for Suffolk county: <a href="http://sbu-bmi.github.io/wapps/DSRIP" target=_blank>sbu-bmi.github.io/wapps/DSRIP</a>. Any feedback/criticism (and pull requests) welcome.
 
 
-
-
 #wApps: all you need is a manifest
-----
 A **wApp** is a web application in a hurry to be part of a webApp ecosystem. All that this integration requires is the definition of a [manifest file](#manifest) where the wApps are identified. This file can be placed anywhere your browser can see and you can control. Using Dropbox or Google drive to share your manifests is quite alright. The wApps ecosystem can then be invoked with the parameter **manifest** and the multiple wApps identified will be integrated as part of a single web application. This github repository maintains the root manifest which is used by default when no manifest is specified. If you want your wApps to be added to those already specified in another manifest you would then use the parameter **addmanifest** instead. For convinience and security, the wApps application itself is kept and developped at [wapps.googlecode.com](http://wapps.googlecode.com), where it enjoys the protection of SSL serving. In order to make the most of GitHub's outstanding social coding features, the root manifest is kept here. If serving wApps through https is not important to you, you can also use [wapps.github.com](http://wapps.github.com)
 
 In a nutshell, all you need is to concatenate your manifest URL with 
