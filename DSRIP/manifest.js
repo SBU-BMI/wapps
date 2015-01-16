@@ -54,7 +54,7 @@ wApps.manifest.apps.push(
     buildUI:function(id){
         this.require('', // script needed to volunteer compute cycles to QM
             function(){
-                $('#'+id).html("<iframe width=100% height=1700 src='https://mathbiol.github.io/openHealth/?jobs/pqiSuffolk.js'/>");
+                $('#'+id).html("<iframe width=100% height=1700 src='https://mathbiol.github.io/openHealth/?jobs/sparcsSuffolk2012tabulateDiabetes.js'/>");
             });
         }
     },
