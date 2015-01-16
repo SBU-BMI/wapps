@@ -1,11 +1,9 @@
 # BMI wApps
 More below about [what a wApp is](#wapps-all-you-need-is-a-manifest). For those in a hurry let's go straight to the wapps developed here:
 
-## <a href="" target=_blank>DSRIP</a>
+# <a href="http://sbu-bmi.github.io/wapps/DSRIP" target=_blank>DSRIP</a>
 
-
-
-
+This is an attempt to aggregate DSRIP analytical products for NY Open Data for Suffolk county: <a href="http://sbu-bmi.github.io/wapps/DSRIP" target=_blank>sbu-bmi.github.io/wapps/DSRIP</a>. Any feedback/criticism (and pull requests) welcome.
 
 
 
